@@ -33,7 +33,6 @@ public class Main
 // Code to randomly select a terrain type
 
     int x = (int)(Math.random()*10);
-    System.out.println(x);
     if(x == 0 || x == 1)
         return '.';
     if(x == 2 || x == 3)
