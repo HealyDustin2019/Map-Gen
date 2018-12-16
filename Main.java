@@ -10,7 +10,6 @@ public class Main
   {
     char [][] map = new char[mapHeight][mapWidth];
     for (int x = 0; x < mapHeight; x++){
-        System.out.println();
         for(int y = 0; y < mapWidth; y++){
             map[x][y] = getCell();
         }
